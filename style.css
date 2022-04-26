@@ -2,17 +2,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .container{
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
+  justify-content: center;
     align-items: center;
     background: orange;
-    width: 255px;
-    height: 100px;
+    width: 355px;
+    height: 300px;
 }
-#input, #btn{
-
-    height: 20px;
+ #btn{
+     background-color: blue;
+      height: 20px;
+     border-radius: 13px;
 
 }
+ #input{
+     background-color: chocolate;
+     border-radius: 13px;
+ }
